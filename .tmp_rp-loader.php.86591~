@@ -1,0 +1,21 @@
+<?php
+/*
+Plugin Name: RealtyPress
+Plugin URI: http://realtypress.org/download/
+Description: RealtyPress will add real estate features to a new or existing WordPress MU installation.
+Author: Boling Research Labs
+Version: 0.1
+Author URI: http://realtypress.org/developers/
+Site Wide Only: true
+*/
+
+define( 'RP_VERSION', '0.1' );
+
+/***
+ * This file will load in each RealtyPress component based on which
+ * of the components have been activated on the "RealtyPress" admin menu.
+ */
+
+require_once( 'rp-core.php' );
+
+?>
